@@ -1,51 +1,50 @@
 /* CSS Document */
 
 body {
-    margin:0px; /* centraliza a página */
-	text-align:center; /* centraliza a página no Internet Explorer */
-	background-color:#0099FF; /* definimos uma cor de fundo para a página*/
+    margin:0; /* definimos nenhuma margem para o site */
+	background-color:#09F; /* definimos uma cor de fundo para a página*/
 	font-family:Trebuchet MS, Tahoma, Verdana; /* definimos uma fonte */
-	font-size:12px; /* definimos o tamanho da fonte */
-	color:#999999; /* definimos a cor da fonte */
+	font-size:13px; /* definimos o tamanho da fonte */
+	color:#999; /* definimos a cor da fonte */
 }
 	
 #corpo {
-    margin:0px auto; /* centraliza a div na página */
-	text-align:left; /* alinha o texto à esquerda */
+    margin:0 auto; /* centraliza a div na página */
 	width:700px; /* definimos uma largura de 700px */
-	background-color:#FFFFFF; /* definimos a cor de fundo da div */
-	border:1px solid #CCCCCC; /* definimos os atributos da borda da div */
+	background-color:#FFF; /* definimos a cor de fundo da div */
+	border:1px solid #CCC; /* definimos os atributos da borda da div */
 	padding-bottom:12px; /* definimos o espaçamento da base */
 }
 
 #topo {
-    background:url(imagens/topo.jpg) no-repeat; /* imagem de fundo da div */
+    background:url("imagens/topo.jpg") no-repeat; /* imagem de fundo da div */
 	height:100px; /* definimos a altura da div */
 }
 
 #menu {
-    background-color:#FF9922; /* cor de fundo da div */
+    background-color:#F92; /* cor de fundo da div */
 	padding:4px; /* distância entre a borda e o conteúdo do elemento na div */
-	color:#FFFFFF; /* cor da fonte */
-	border-top:1px solid #FFFFFF; /* definimos os atributos da borda superior */
+	color:#FFF; /* cor da fonte */
+	border-top:1px solid #FFF; /* definimos os atributos da borda superior */
 }
 
 #menu ul { /* vamos estilizar uma lista na div menu */
-	margin:0px 0px 0px 20px; /* margem no sentido horário(topo,direita,base,esquerda) */
-	padding:0px; /* sem espaçamento */
+	margin:0 0 0 20px; /* margem no sentido horário(topo,direita,base,esquerda) */
+	padding:0; /* sem espaçamento */
 	list-style-type:none; /* tipo do estilo da lista */
-	border-left:1px solid #DDDDDD; /* definimos os atributos da borda esquerda */
+	border-left:1px solid #DDD; /* definimos os atributos da borda esquerda */
 }
 	
 #menu li { /* vamos estilizar os elementos da lista na div menu */
 	display:inline; /* definimos que os elementos da lista serão exibidos numa linha */
-	padding:0px 10px 0px 10px; /* espaçamento no sentido horário(topo,direita,base,esquerda) */
-	border-right:1px solid #DDDDDD; /* definimos os atributos da borda direita */
+	padding:0 10px 0 10px; /* espaçamento no sentido horário(topo,direita,base,esquerda) */
+	border-right:1px solid #DDD; /* definimos os atributos da borda direita */
 }
 	
 #menu li a { /* link no estado normal e visitado */
 	text-decoration:none; /* sem decoração no link */
 	color:#FFFFFF; /* definimos a cor do link */
+	font-weight:bold; /* destacamos a fonte com negrito */ 
 }
 	
 #menu li a:hover { /* link no estado quando se passa o mouse em cima */
@@ -58,30 +57,31 @@ body {
 	padding:4px; /* espaçamento de 4px para todos os lados */
 	border:1px solid #aaaaaa; /* definimos os atributos da borda */
 	width:190px; /* Temos 190px + 2px da borda direita e esquerda + 8px do espaçamento = 200px */
-	margin:10px 0px 0px 10px; /* margem no sentido horário(topo,direita,base,esquerda) */
+	height:490px; /* Temos 490px + 2px da borda superior e inferior + 8px do espaçamento = 500px */
+	margin:10px 0 0 10px; /* margem no sentido horário(topo,direita,base,esquerda) */
 	position:relative; /* definimos que a nossa div tem posição relativa */
 	right:5px; /* com isso definimos que ela vai ter margem de 5px da direita */
 }
 
 #conteudo {
-	margin:10px 215px 0px 5px; /* margem no sentido horário(topo,direita,base,esquerda) */
+	margin:10px 215px 0 5px; /* margem no sentido horário(topo,direita,base,esquerda) */
 	text-indent:20px; /* espaçamento de 20px nos parágrafos */
 	text-align:justify; /* texto justificado */
 }
 
 #conteudo p {
-	margin:0px; /* sem margem nos parágrafos na div conteúdo */
+	margin:0; /* sem margem nos parágrafos na div conteúdo */
 }
 
 #rodape {
 	clear:right; /* limpamos a flutuação da div lateral em relação a div rodape */
-	margin:0px auto; /* centraliza a div na página */
+	margin:0 auto; /* centraliza a div na página */
 	width:690px; /* definimos uma largura de 690px */
 	border-top:3px solid #FF9922; /* definimos os atributos da borda superior */
 	font-size:11px; /* definimos o tamanho da fonte em nossa div */
 	color:#666666;	/* definimos a cor da fonte em nossa div */
 	text-align:right; /* texto alinhado a direita */
-	padding:1px 0px 0px 0px; /* espaçamento no sentido horário(topo,direita,base,esquerda) */
+	padding:1px 0 0 0; /* espaçamento no sentido horário(topo,direita,base,esquerda) */
 	position:relative; /* definimos que a nossa div tem posição relativa */
 	top:10px; /* com isso definimos que ela vai ter margem de 10px do topo */
 }
