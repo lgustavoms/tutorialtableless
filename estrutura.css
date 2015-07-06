@@ -17,7 +17,7 @@ body {
 }
 
 #topo {
-    background:url("imagens/topo.jpg") no-repeat; /* imagem de fundo da div */
+    background:url("img/topo.jpg") no-repeat; /* imagem de fundo da div */
 	height:100px; /* definimos a altura da div */
 }
 
@@ -43,19 +43,19 @@ body {
 	
 #menu li a { /* link no estado normal e visitado */
 	text-decoration:none; /* sem decoração no link */
-	color:#FFFFFF; /* definimos a cor do link */
+	color:#FFF; /* definimos a cor do link */
 	font-weight:bold; /* destacamos a fonte com negrito */ 
 }
 	
 #menu li a:hover { /* link no estado quando se passa o mouse em cima */
     text-decoration:underline; /* decoração sublinhado no link */
-	background-color:#999900; /* cor de fundo no link */
+	background-color:#990; /* cor de fundo no link */
 }
 
 #lateral {
 	float:right; /* definimos que a div lateral vai flutuar para a direita */
 	padding:4px; /* espaçamento de 4px para todos os lados */
-	border:1px solid #aaaaaa; /* definimos os atributos da borda */
+	border:1px solid #AAA; /* definimos os atributos da borda */
 	width:190px; /* Temos 190px + 2px da borda direita e esquerda + 8px do espaçamento = 200px */
 	height:490px; /* Temos 490px + 2px da borda superior e inferior + 8px do espaçamento = 500px */
 	margin:10px 0 0 10px; /* margem no sentido horário(topo,direita,base,esquerda) */
@@ -77,9 +77,9 @@ body {
 	clear:right; /* limpamos a flutuação da div lateral em relação a div rodape */
 	margin:0 auto; /* centraliza a div na página */
 	width:690px; /* definimos uma largura de 690px */
-	border-top:3px solid #FF9922; /* definimos os atributos da borda superior */
+	border-top:3px solid #F92; /* definimos os atributos da borda superior */
 	font-size:11px; /* definimos o tamanho da fonte em nossa div */
-	color:#666666;	/* definimos a cor da fonte em nossa div */
+	color:#666;	/* definimos a cor da fonte em nossa div */
 	text-align:right; /* texto alinhado a direita */
 	padding:1px 0 0 0; /* espaçamento no sentido horário(topo,direita,base,esquerda) */
 	position:relative; /* definimos que a nossa div tem posição relativa */
