@@ -3,7 +3,7 @@
 body {
     margin:0; /* definimos nenhuma margem para o site */
 	background-color:#09F; /* definimos uma cor de fundo para a página*/
-	font-family:Trebuchet MS, Tahoma, Verdana; /* definimos uma fonte */
+	font-family:"Trebuchet MS, Tahoma, Verdana"; /* definimos uma fonte */
 	font-size:13px; /* definimos o tamanho da fonte */
 	color:#999; /* definimos a cor da fonte */
 }
